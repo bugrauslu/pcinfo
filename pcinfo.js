@@ -1,8 +1,5 @@
-const os =require("os");
-const fs=require("fs");
-
-
-
+const os = require("os");
+const fs = require("fs");
 
 let pcinfo=function() {
 
@@ -26,11 +23,7 @@ let pcinfo=function() {
         
         function pcinfogoster() {
             return `total ram :${totalram} , kullanılan ram: ${usedram} ,free ram ${freeram}, cpu sayısı : ${cpusayisi}`;
-        }
-        
-        
+        }     
 }
-
-
 
 exports.sendinfo=pcinfo;
